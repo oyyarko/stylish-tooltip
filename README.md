@@ -24,6 +24,10 @@ Or display an entire div inside the tooltip
 
 Customize Tooltip with "styledClass"
 
+### timeOut
+
+Customize time span to hide tooltips. default is 600ms!
+
 ```
 import { StylishhTooltip } from 'stylishh-tooltip';
 .
@@ -36,6 +40,8 @@ import { StylishhTooltip } from 'stylishh-tooltip';
       mode="dark"
       type="default"
       id={"show-here"}
+      timeOut={800}
+      styledClass={"top-10} //tailwind class
    >
       Stylishh Tooltip
    </StylishhTooltip>
